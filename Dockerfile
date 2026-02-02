@@ -24,9 +24,9 @@ RUN dnf install -y python3-pip \
 RUN pip3 install --no-cache --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ \
          tomasr-keycloakauthenticator==4.0.5 \
          tomasr-swanculler==1.0.7 \
-         tomasr-swanhub==1.0.11 \
+         tomasr-swanhub==1.0.12 \
          tomasr-swannotificationsservice==1.0.3 \
-         tomasr-swanspawner==1.2.36
+         tomasr-swanspawner==1.2.37
 
 # Install kS4U
 ADD ./bin/kS4U.pl /usr/bin/kS4U
